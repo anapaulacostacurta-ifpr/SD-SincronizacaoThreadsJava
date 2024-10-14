@@ -30,7 +30,7 @@ class ThreadsConcorrenteInterrupet {
 
         // Simulando um atraso antes de encerrar as threads
         try {
-            Thread.sleep(5000);
+            Thread.sleep(50000);
         } catch (InterruptedException e) {
         e.printStackTrace();
         }
