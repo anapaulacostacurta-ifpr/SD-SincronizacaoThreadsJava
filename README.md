@@ -50,7 +50,7 @@ A sincronização usando eventos, complementada pelos métodos wait() e notify()
 * notifyAll(): Acorda todas as threads que estão esperando nesse objeto.
 
 Exemplo Prático: Produtor-Consumidor
-´´´java
+```java
 public class Buffer {
     private int[] buffer;
     private int count;
@@ -80,7 +80,7 @@ public class Buffer {
         return item;
     }
 }
-´´´
+```
 
 * Produtor: Chama put() para adicionar um item ao buffer. Se o buffer estiver cheio, ele chama wait(), liberando o monitor e esperando que um consumidor remova um item.
 * Consumidor: Chama get() para remover um item do buffer. Se o buffer estiver vazio, ele chama wait(), liberando o monitor e esperando que um produtor adicione um item.
