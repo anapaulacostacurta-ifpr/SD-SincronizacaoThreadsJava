@@ -1,5 +1,5 @@
 # Analisando o Problema de Sincronização
-O problema principal neste código é a ausência de sincronização ao acessar o recurso compartilhado dado.
+O problema principal o código [MeuDadoThread](./MeuDadoThread.java) é a ausência de sincronização ao acessar o recurso compartilhado que é a variavel "Dado".
 
 ## Entendendo o Problema
 * Recurso Compartilhado: A variável Dado dentro da classe MeuDadoThreads é um recurso compartilhado por ambas as threads, Produtora e Consumidora.
