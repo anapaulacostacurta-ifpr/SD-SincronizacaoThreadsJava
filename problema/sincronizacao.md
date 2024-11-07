@@ -1,4 +1,4 @@
-#Analisando o Problema de Sincronização
+# Analisando o Problema de Sincronização
 O problema principal neste código é a ausência de sincronização ao acessar o recurso compartilhado dado.
 
 ## Entendendo o Problema
