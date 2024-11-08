@@ -1,15 +1,15 @@
-# Sumário
+## Sumário
 * [Sincronização Threads em Java](#sincronização-threads-em-java)
 * [Vamos entender os principais conceitos?](#vamos-entender-os-principais-conceitos)
 * [Atividades Práticas](#atividades-práticas)
 * [Considerações Finais](#considerações-finais)
   
-## Sincronização Threads em Java
+### Sincronização Threads em Java
 Essa abordagem é crucial para garantir a consistência e a integridade dos dados em aplicações multi-threaded, onde diversas threads podem acessar e modificar os mesmos recursos compartilhados.
 
 [voltar sumário](#sumário)
 
-## Vamos entender os principais conceitos?
+### Vamos entender os principais conceitos?
 * Imagine um grupo de trabalhadores em uma fábrica. Cada trabalhador representa uma thread, e cada tarefa representa uma parte do código. Para que a produção ocorra de forma organizada e eficiente, é necessário coordenar as ações de todos os trabalhadores.
 * Os monitores são como os supervisores da fábrica. Eles garantem que apenas um trabalhador tenha acesso a uma determinada máquina ou recurso por vez, evitando que as peças sejam danificadas ou que os processos sejam interrompidos.
 * Os eventos são como sinais ou mensagens que os trabalhadores usam para se comunicar. Quando um trabalhador termina uma tarefa, ele envia um sinal para outro trabalhador, que então inicia sua próxima tarefa. Essa comunicação é essencial para garantir que todas as etapas da produção sejam realizadas na ordem correta.
@@ -17,7 +17,7 @@ Essa abordagem é crucial para garantir a consistência e a integridade dos dado
 
 [voltar sumário](#sumário)
 
-## Atividades Práticas
+### Atividades Práticas
 * Crie um repositório com o nome: SD-SincronizacaoThreadsJava;
 * Abra o terminal do novo repositório;
 * Clone o repositório github, veja as instruções [aqui](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)
@@ -27,7 +27,7 @@ Essa abordagem é crucial para garantir a consistência e a integridade dos dado
 
 [voltar sumário](#sumário)
 
-## Considerações Finais
+### Considerações Finais
 Podemos comparar a sincronização em Java é como a orquestração de uma grande fábrica. Cada mecanismo de sincronização tem um papel fundamental em garantir que todas as partes trabalhem juntas de forma harmoniosa e eficiente. Ao dominar essas ferramentas, você estará apto a criar aplicações Java mais robustas, escaláveis e capazes de lidar com as complexidades da programação concorrente.
 Ao escolher o mecanismo de sincronização adequado para sua aplicação, você estará, na verdade, escolhendo a melhor forma de orquestrar suas threads e garantir o sucesso do seu software.
 
