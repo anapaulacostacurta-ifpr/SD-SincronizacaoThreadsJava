@@ -8,7 +8,7 @@ Essa abordagem é crucial para garantir a consistência e a integridade dos dado
 * As barreiras são como portões que controlam o fluxo de trabalhadores entre as diferentes etapas da produção. Todos os trabalhadores devem chegar ao portão antes que ele se abra e permitam que todos passem para a próxima etapa juntos.
 
 ## Atividade Prática
-
+* Acesse as instruções do Problema de Sincronização de Threads [aqui](./problema/sincronizacao.md)
 
 ## Considerações Finais
 Podemos comparar a sincronização em Java é como a orquestração de uma grande fábrica. Cada mecanismo de sincronização tem um papel fundamental em garantir que todas as partes trabalhem juntas de forma harmoniosa e eficiente. Ao dominar essas ferramentas, você estará apto a criar aplicações Java mais robustas, escaláveis e capazes de lidar com as complexidades da programação concorrente.
