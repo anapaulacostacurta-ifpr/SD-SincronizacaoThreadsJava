@@ -1,5 +1,16 @@
-# Analisando o Problema de Sincronização
+[Voltar Inicio](../README.md)
+
+## Sumário
+* [Analisando o Problema de Sincronização](#analisando-o-problema-de-sincronização)
+* [Entendendo o Problema](#entendendo-o-problema)
+* [Por que a Sincronização é Importante?](#por-que-a-sincronização-é-importante)
+* [Atividade Prática 01](#atividade-pratica-01)
+* [Sincronização utilizando Monitores](#sincronização-utilizando-monitores)
+
+### Analisando o Problema de Sincronização
 O problema principal o código [MeuDadoThread](./MeuDadoThread.java) é a ausência de sincronização ao acessar o recurso compartilhado que é a variavel "Dado".
+
+[voltar sumário](#sumário)
 
 ## Entendendo o Problema
 * **Recurso Compartilhado**: A variável Dado dentro da classe MeuDadoThreads é um recurso compartilhado por ambas as threads, Produtora e Consumidora.
@@ -23,17 +34,23 @@ class MeuDadoThreads {
 ```
 * Ao adicionar synchronized aos métodos armazenar e carregar, estamos associando um monitor ao objeto MeuDadoThreads. Quando uma thread entra em um desses métodos, ela adquire o monitor, impedindo que outra thread entre no mesmo método até que a primeira termine. Isso garante a exclusão mútua e evita a condição de corrida. Com essa alteração, o código ficará seguro e consistente, garantindo que o valor de Dado seja sempre atualizado corretamente.
 
-## Por que a Sincronização é Essencial?
+[voltar sumário](#sumário)
+
+## Por que a Sincronização é Importante?
 * **Integridade dos dados**: Assegura que os dados não sejam corrompidos por acessos concorrentes.
 * **Consistência**: Garante que as operações sejam realizadas em uma ordem correta e previsível.
 * **Prevenção de condições de corrida**: Evita resultados imprevisíveis e não determinísticos.
+
+[voltar sumário](#sumário)
 
 # Atividade Prática 01
 * Execute o programa (./MeuDadoThreads.Java), de modo que ele gere uma log da execução;
 * Execute novamente o mesmo programa, também deverá gerar uma log de executação;
 * Compare as duas execuções e verifique se o resultado foi diferente.
 
-[Voltar Inicio](../README.md)
+[voltar sumário](#sumário)
 
-# Solução utilizando Monitores
+# Sincronização utilizando Monitores
 * Acesse o conteúdo [aqui](../monitor/monitor.md)
+
+[voltar sumário](#sumário)
