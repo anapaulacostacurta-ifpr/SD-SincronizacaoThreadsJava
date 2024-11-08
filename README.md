@@ -1,6 +1,6 @@
 # Sumário
 * [Sincronização Threads em Java](#sincronização-threads-em-java)
-* [Vamos entender os principais conceitos?](#vamos-entender-os-principais-conceitos])
+* [Vamos entender os principais conceitos?](#vamos-entender-os-principais-conceitos)
 * [Atividades Práticas](#atividades-práticas)
 * [Considerações Finais](#consideracoes-finais)
   
