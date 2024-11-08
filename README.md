@@ -14,6 +14,7 @@ Essa abordagem é crucial para garantir a consistência e a integridade dos dado
 * Os monitores são como os supervisores da fábrica. Eles garantem que apenas um trabalhador tenha acesso a uma determinada máquina ou recurso por vez, evitando que as peças sejam danificadas ou que os processos sejam interrompidos.
 * Os eventos são como sinais ou mensagens que os trabalhadores usam para se comunicar. Quando um trabalhador termina uma tarefa, ele envia um sinal para outro trabalhador, que então inicia sua próxima tarefa. Essa comunicação é essencial para garantir que todas as etapas da produção sejam realizadas na ordem correta.
 * As barreiras são como portões que controlam o fluxo de trabalhadores entre as diferentes etapas da produção. Todos os trabalhadores devem chegar ao portão antes que ele se abra e permitam que todos passem para a próxima etapa juntos.
+
 [voltar sumário](#sumário)
 
 ## Atividades Práticas
