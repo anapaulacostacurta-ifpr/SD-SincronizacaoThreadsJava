@@ -18,7 +18,7 @@ Essa abordagem é crucial para garantir a consistência e a integridade dos dado
 [voltar sumário](#sumário)
 
 ### Atividades Práticas
-* Crie um repositório com o nome: SD-SincronizacaoThreadsJava;
+* Crie um repositório com o nome: **SD-SincronizacaoThreadsJava**;
 * Abra o terminal do novo repositório;
 * Clone o repositório github, veja as instruções [aqui](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository);
 * Executar as Atividades Práticas 01, 02 e 03. Acesse as instruções das Atividades Práticas [aqui](./problema/sincronizacao.md);
