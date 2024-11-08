@@ -29,8 +29,8 @@ class MeuDadoThreads {
 * **Prevenção de condições de corrida**: Evita resultados imprevisíveis e não determinísticos.
 
 # Atividade Prática 01
-* Execute o programa (./MeuDadoThreads.Java);
-* Execute novamente o mesmo programa;
+* Execute o programa (./MeuDadoThreads.Java), de modo que ele gere uma log da execução;
+* Execute novamente o mesmo programa, também deverá gerar uma log de executação;
 * Compare as duas execuções e verifique se o resultado foi diferente.
 
 [Voltar Inicio](../README.md)
