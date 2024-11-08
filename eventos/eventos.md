@@ -111,7 +111,7 @@ public class Carro {
 }
 ```
 ##### Atividade Prática 03
-* Execute o programa MeuDadoEvent;
+* Execute o programa (./MeuDadoEvent.java), de modo que gere uma log da execução;
 * Compare os resultados com os obtidos na execução da Atividade Pratica 01 e 02;
 
 [Voltar Inicio](../README.md)
