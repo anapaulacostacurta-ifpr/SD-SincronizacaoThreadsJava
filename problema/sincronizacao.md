@@ -28,8 +28,11 @@ class MeuDadoThreads {
 * **Consistência**: Garante que as operações sejam realizadas em uma ordem correta e previsível.
 * **Prevenção de condições de corrida**: Evita resultados imprevisíveis e não determinísticos.
 
-# Atividade Prática
+# Atividade Prática 01
 * Clone o repositório github;
 * Execute o programa (./MeuDadoThreads.Java);
 * Execute novamente o mesmo programa;
 * Compare as duas execuções e verifique se o resultado foi diferente.
+
+# Solução utilizando Monitores
+* Acesse o conteúdo [aqui](./monitores/monitores.md)
