@@ -4,11 +4,12 @@
 * [Atividades Práticas](#atividades-práticas)
 * [Considerações Finais](#considerações-finais)
   
-# Sincronização Threads em Java
+## Sincronização Threads em Java
 Essa abordagem é crucial para garantir a consistência e a integridade dos dados em aplicações multi-threaded, onde diversas threads podem acessar e modificar os mesmos recursos compartilhados.
+
 [voltar sumário](#sumário)
 
-# Vamos entender os principais conceitos?
+## Vamos entender os principais conceitos?
 * Imagine um grupo de trabalhadores em uma fábrica. Cada trabalhador representa uma thread, e cada tarefa representa uma parte do código. Para que a produção ocorra de forma organizada e eficiente, é necessário coordenar as ações de todos os trabalhadores.
 * Os monitores são como os supervisores da fábrica. Eles garantem que apenas um trabalhador tenha acesso a uma determinada máquina ou recurso por vez, evitando que as peças sejam danificadas ou que os processos sejam interrompidos.
 * Os eventos são como sinais ou mensagens que os trabalhadores usam para se comunicar. Quando um trabalhador termina uma tarefa, ele envia um sinal para outro trabalhador, que então inicia sua próxima tarefa. Essa comunicação é essencial para garantir que todas as etapas da produção sejam realizadas na ordem correta.
@@ -22,6 +23,7 @@ Essa abordagem é crucial para garantir a consistência e a integridade dos dado
 * Executar as Atividades Práticas 01, 02 e 03. Acesse as instruções das Atividades Práticas [aqui](./problema/sincronizacao.md);
 * No seu repositório criar um arquivo chamado "AnaliseSincronizacao.md", que deverá conter um relatório das execuções realizadas nas três atividades práticas, com uma opinião pessoal sobre os três programas apresentados e as saidas apresentadas.
 * O relatório deverá estar formatado na sintaxe do github, acesse [aqui](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
 [voltar sumário](#sumário)
 
 ## Considerações Finais
