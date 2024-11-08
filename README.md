@@ -1,8 +1,8 @@
 # Sumário
-* [Sincronização Threads em Java](#sincroniza%C3%A7%C3%A3o-threads-em-java)
-* [Vamos entender os principais conceitos?](#vamos-entender-os-principais-conceitos?])
-* [Atividades Práticas](#)
-* [Considerações Finais](#)
+* [Sincronização Threads em Java](#sincronização-threads-em-java)
+* [Vamos entender os principais conceitos?](#vamos-entender-os-principais-conceitos])
+* [Atividades Práticas](#atividades-práticas)
+* [Considerações Finais](#consideracoes-finais)
   
 # Sincronização Threads em Java
 Essa abordagem é crucial para garantir a consistência e a integridade dos dados em aplicações multi-threaded, onde diversas threads podem acessar e modificar os mesmos recursos compartilhados.
@@ -14,7 +14,9 @@ Essa abordagem é crucial para garantir a consistência e a integridade dos dado
 * As barreiras são como portões que controlam o fluxo de trabalhadores entre as diferentes etapas da produção. Todos os trabalhadores devem chegar ao portão antes que ele se abra e permitam que todos passem para a próxima etapa juntos.
 
 ## Atividades Práticas
-* Clone o repositório github;
+* Crie um repositório com o nome: SD-SincronizacaoThreadsJava;
+* Abra o terminal do novo repositório;
+* Clone o repositório github, veja as instruções [aqui](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)
 * Executar as Atividades Práticas 01, 02 e 03. Acesse as instruções das Atividades Práticas [aqui](./problema/sincronizacao.md);
 * No seu repositório criar um arquivo chamado "AnaliseSincronizacao.md", que deverá conter um relatório das execuções realizadas nas três atividades práticas, com uma opinião pessoal sobre os três programas apresentados e as saidas apresentadas.
 * O relatório deverá estar formatado na sintaxe do github, acesse [aqui](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
