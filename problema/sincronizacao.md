@@ -45,7 +45,7 @@ class MeuDadoThreads {
 
 # Atividade Prática 01
 * Execute o programa [MeuDadoThreads](./MeuDadoThreads.Java), de modo que ele gere uma log da execução;
-* Execute novamente o mesmo programa, também deverá gerar uma log de executação;
+* Execute novamente o mesmo programa, de modo que gere uma nova log de executação sem sobrescrever a anterior;
 * Compare as duas execuções e verifique se o resultado foi diferente.
 
 [voltar sumário](#sumário)
