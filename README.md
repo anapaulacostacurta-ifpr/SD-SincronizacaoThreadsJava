@@ -7,8 +7,11 @@ Essa abordagem é crucial para garantir a consistência e a integridade dos dado
 * Os eventos são como sinais ou mensagens que os trabalhadores usam para se comunicar. Quando um trabalhador termina uma tarefa, ele envia um sinal para outro trabalhador, que então inicia sua próxima tarefa. Essa comunicação é essencial para garantir que todas as etapas da produção sejam realizadas na ordem correta.
 * As barreiras são como portões que controlam o fluxo de trabalhadores entre as diferentes etapas da produção. Todos os trabalhadores devem chegar ao portão antes que ele se abra e permitam que todos passem para a próxima etapa juntos.
 
-## Atividade Prática
-* Acesse as instruções do Problema de Sincronização de Threads [aqui](./problema/sincronizacao.md)
+## Atividades Práticas
+* Clone o repositório github;
+* Executar as Atividades Práticas 01, 02 e 03. Acesse as instruções das Atividades Práticas [aqui](./problema/sincronizacao.md);
+* No seu repositório criar um arquivo chamado "AnaliseSincronizacao.md", que deverá conter um relatório das execuções realizadas nas três atividades práticas, com uma opinião pessoal sobre os três programas apresentados e as saidas apresentadas.
+* O relatório deverá estar formatado na sintaxe do github, acesse [aqui](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ## Considerações Finais
 Podemos comparar a sincronização em Java é como a orquestração de uma grande fábrica. Cada mecanismo de sincronização tem um papel fundamental em garantir que todas as partes trabalhem juntas de forma harmoniosa e eficiente. Ao dominar essas ferramentas, você estará apto a criar aplicações Java mais robustas, escaláveis e capazes de lidar com as complexidades da programação concorrente.
