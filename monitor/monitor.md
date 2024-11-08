@@ -1,3 +1,5 @@
+[Voltar Inicio](../README.md)
+
 ### Sincronização usando Monitores
 Um monitor pode ser visualizado como um inibidor ou um token que uma thread pode adquirir para obter acesso exclusivo a um recurso. Essa metáfora é útil para entender o seu funcionamento:
 
@@ -34,7 +36,7 @@ public class ContaBancaria {
 * **Alternativas**: Além dos monitores, Java oferece outros mecanismos de sincronização, como as classes ReentrantLock e as interfaces Condition. A escolha do mecanismo adequado depende das necessidades específicas da aplicação.
 
 # Atividade Pratica 02:
-* Execute o programa (./MeuDadoMonitor.Java), de maneira que gere uma log da execução;
+* Execute o programa (./MeuDadoMonitor.java), de maneira que gere uma log da execução;
 * Compare a execução as duas execuções anteriores;
 
 # Sincronização usando Eventos
