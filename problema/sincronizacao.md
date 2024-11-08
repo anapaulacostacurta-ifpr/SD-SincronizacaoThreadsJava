@@ -29,10 +29,11 @@ class MeuDadoThreads {
 * **Prevenção de condições de corrida**: Evita resultados imprevisíveis e não determinísticos.
 
 # Atividade Prática 01
-* Clone o repositório github;
 * Execute o programa (./MeuDadoThreads.Java);
 * Execute novamente o mesmo programa;
 * Compare as duas execuções e verifique se o resultado foi diferente.
+
+[Voltar Inicio](../README.md)
 
 # Solução utilizando Monitores
 * Acesse o conteúdo [aqui](../monitor/monitor.md)
