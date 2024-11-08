@@ -4,7 +4,7 @@
 * [Analisando o Problema de Sincronização](#analisando-o-problema-de-sincronização)
 * [Entendendo o Problema](#entendendo-o-problema)
 * [Por que a Sincronização é Importante?](#por-que-a-sincronização-é-importante)
-* [Atividade Prática 01](#atividade-pratica-01)
+* [Atividade Prática 01](#atividade-prática-01)
 * [Sincronização utilizando Monitores](#sincronização-utilizando-monitores)
 
 ### Analisando o Problema de Sincronização
