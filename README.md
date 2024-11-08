@@ -19,7 +19,7 @@ Essa abordagem é crucial para garantir a consistência e a integridade dos dado
 
 ### Atividades Práticas
 * Crie um repositório com o nome: **SD-SincronizacaoThreadsJava**;
-* Abra o terminal do novo repositório;
+* Crie um codespace, acesse as instruções [aqui](https://docs.github.com/pt/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository);
 * Clone o repositório github, veja as instruções [aqui](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository);
 * Executar as Atividades Práticas 01, 02 e 03. Acesse as instruções das Atividades Práticas [aqui](./problema/sincronizacao.md);
 * No seu repositório criar um arquivo chamado "AnaliseSincronizacao.md", que deverá conter um relatório das execuções realizadas nas três atividades práticas, com uma opinião pessoal sobre os três programas apresentados e as saidas apresentadas.
