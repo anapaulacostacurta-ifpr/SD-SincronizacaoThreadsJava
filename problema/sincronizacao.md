@@ -35,4 +35,4 @@ class MeuDadoThreads {
 * Compare as duas execuções e verifique se o resultado foi diferente.
 
 # Solução utilizando Monitores
-* Acesse o conteúdo [aqui](./monitores/monitores.md)
+* Acesse o conteúdo [aqui](./monitor/monitor.md)
