@@ -60,7 +60,7 @@ class ConsumidorMonitor implements Runnable {
 }
 
 
-class SincronizacaoMonitor {
+class MeuDadoMonitorJava {
     public static void main(String argv[]) {
         MeuDadoMonitor dado = new MeuDadoMonitor();
         new Thread(new ProdutorMonitor(dado)).start();

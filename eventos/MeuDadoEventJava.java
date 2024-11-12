@@ -63,7 +63,7 @@ class ConsumidorEvent implements Runnable {
 }
 
 
-class SincronizacaoEvent {
+class MeuDadoEventJava {
     public static void main(String argv[]) {
         MeuDadoEvent dado = new MeuDadoEvent();
         new Thread(new ProdutorEvent(dado)).start();

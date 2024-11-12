@@ -43,8 +43,7 @@ class ConsumidorThreads implements Runnable {
     }
 }
 
-
-class SincronizacaoThreads {
+class MeuDadoThreadsJava {
     public static void main(String argv[]) {
         MeuDadoThreads dado = new MeuDadoThreads();
         new Thread(new ProdutorThreads(dado)).start();
