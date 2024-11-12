@@ -8,7 +8,7 @@
 * [Sincronização utilizando Monitores](#sincronização-utilizando-monitores)
 
 ### Analisando o Problema de Sincronização
-O problema principal o código [MeuDadoThread](./MeuDadoThread.java) é a ausência de sincronização ao acessar o recurso compartilhado que é a variavel "Dado".
+O problema principal o código [MeuDadoThreadJava](./MeuDadoThreadsJava.java) é a ausência de sincronização ao acessar o recurso compartilhado que é a variavel "Dado".
 
 [voltar sumário](#sumário)
 
@@ -44,7 +44,7 @@ class MeuDadoThreads {
 [voltar sumário](#sumário)
 
 # Atividade Prática 01
-* Execute o programa [MeuDadoThreads](./MeuDadoThreads.Java), de modo que ele gere uma log da execução;
+* Execute o programa [MeuDadoThreads](./MeuDadoThreadsJava.java), de modo que ele gere uma log da execução;
 * Execute novamente o mesmo programa, de modo que gere uma nova log de executação sem sobrescrever a anterior;
 * Compare as duas execuções e verifique se o resultado foi diferente.
 
