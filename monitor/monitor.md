@@ -36,7 +36,7 @@ public class ContaBancaria {
 * **Alternativas**: Além dos monitores, Java oferece outros mecanismos de sincronização, como as classes ReentrantLock e as interfaces Condition. A escolha do mecanismo adequado depende das necessidades específicas da aplicação.
 
 # Atividade Pratica 02:
-* Execute o programa [MeuDadoMonitor.java](./MeuDadoMonitor.java), de maneira que gere uma log da execução;
+* Execute o programa [MeuDadoMonitorJava.java](./MeuDadoMonitorJava.java), de maneira que gere uma log da execução;
 * Realize uma comparação desta execução com as duas execuções anteriores;
 
 # Sincronização usando Eventos
