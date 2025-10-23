@@ -1,6 +1,6 @@
 ## Sumário
 * [Sincronização Threads em Java: : O Contexto TADS](#1._Sincronização_de_Threads_em_Java:_O_Contexto_TADS)
-* [Conceitos Essenciais e Desafios da Concorrência](#2.-Conceitos-Essenciais-e-Desafios-da-Concorrência)
+* [Conceitos Essenciais e Desafios da Concorrência](#2-Conceitos-Essenciais-e-Desafios-da-Concorrência)
 * [Instruções para Atividades Práticas](#3. Instruções para Atividades Práticas)
 * [Considerações Finais](#4. Considerações Finais)
   
