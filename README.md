@@ -1,9 +1,9 @@
-## Sumário
+## Sumário 
 * [Sincronização Threads em Java: : O Contexto TADS](#1._Sincronização_de_Threads_em_Java:_O_Contexto_TADS)
 * [Conceitos Essenciais e Desafios da Concorrência](#2-Conceitos-Essenciais-e-Desafios-da-Concorrência)
 * [Instruções para Atividades Práticas](#3. Instruções para Atividades Práticas)
 * [Considerações Finais](#4. Considerações Finais)
-
+ 
   
 ### 1. Sincronização de Threads em Java: O Contexto TADS
 Essa abordagem é crucial para garantir a consistência e a integridade dos dados em aplicações multi-threaded e sistemas distribuídos. Em cenários como transações bancárias, processamento de dados em tempo real ou servidores web com múltiplos acessos concorrentes, diversas threads podem acessar e modificar os mesmos recursos compartilhados simultaneamente, o que pode levar a:
